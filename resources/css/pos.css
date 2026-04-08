@@ -1,0 +1,31 @@
+.menu-item { 
+    cursor: pointer; 
+    transition: 0.2s; 
+}
+
+.menu-item:hover { 
+    transform: scale(1.03); 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.cart-container { 
+    height: 400px; 
+    overflow-y: auto; 
+}
+.img-sp-wrap {
+    height: 200px;
+    overflow: hidden;
+    background: #f8f9fa;
+}
+
+.img-sp {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    display: block;
+}
+
+/* Ẩn nút tăng/giảm của input number */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+input[type=number] { appearance: textfield; -moz-appearance: textfield; }
