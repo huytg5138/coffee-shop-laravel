@@ -64,6 +64,3 @@
    - `php artisan serve`
    - `npm run dev`
 
-## Tạo tài khoản admin bằng code
-
-`php artisan tinker --execute 'App\Models\User::updateOrCreate(["email"=>"huytrinh548@gmail.com"],["name"=>"Admin","password"=>Illuminate\Support\Facades\Hash::make("Huycm@123")]);'`
